@@ -57,11 +57,7 @@
           </li>
         </ul>
         {% else %}
-        <form class="d-flex" method="post" action="/form_login">
-          <input class="form-control me-2" type="text" name="username" placeholder="Username" aria-label="Username">
-          <input class="form-control me-2" type="password" name="password" placeholder="Password" aria-label="Password">
-          <button class="btn btn-outline-success" type="submit">Login</button>
-        </form>
+        <a class="btn btn-light" href="/" role="button">Login</a>
         {% endif %}
       </div>
     </div>
@@ -90,7 +86,7 @@
     {% block content %}{% endblock %}
 
     <footer class="pt-3 mt-4 text-muted border-top">
-      &copy; 2021
+      &copy; 2021-2022
     </footer>
   </div>
 </main>
